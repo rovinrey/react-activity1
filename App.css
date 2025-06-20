@@ -1,0 +1,25 @@
+.button-container {
+  display: flex; /* Makes children (buttons) display in a row */
+  justify-content: center; /* Centers items horizontally */
+  align-items: center; /* Vertically aligns them if they have different heights */
+  margin-top: 10px; /* Add some space above if needed */
+  margin-bottom: 10px; /* Add some space below if needed */
+}
+
+.like-button {
+  color: white;
+  padding: 8px 15px; /* Adjust padding as needed */
+  cursor: pointer;
+  margin-right: 15px; /* Adds space between like and dislike buttons */
+}
+
+.dislike-button {
+  color: white;
+  padding: 8px 15px; /* Adjust padding as needed */
+  cursor: pointer;
+}
+
+/* You might also want to center the total rating */
+p {
+    text-align: center;
+}
